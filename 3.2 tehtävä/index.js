@@ -32,7 +32,7 @@ app.get('/info', (request, response) => {
     const time = new Date()
 
     response.send(`
-        <p>Phonebook has info foe ${count} people</p>
+        <p>Phonebook has info for ${count} people</p>
         <p>${time}</p>`)
 })
 
@@ -41,4 +41,5 @@ app.get('/info', (request, response) => {
 const PORT = 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
+
 })
