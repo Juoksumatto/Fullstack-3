@@ -51,9 +51,6 @@ app.post('/api/persons', (request, response) => {
     if (persons.find(p => p.number === body.number)) {
         return response.status(400).json({ error: 'number must be unique' })
       }
-    if (body.name === '' || body.number === '') {
-        return response.status(400).json({ error: 'name or number missing' })
-      }
     const person = {
       id: Math.floor(Math.random() * 1000000).toString(),
       name: body.name,
@@ -73,4 +70,5 @@ app.delete('/api/persons/:id', (request, response) => {
 const PORT = 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
+
 })
