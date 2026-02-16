@@ -1,0 +1,29 @@
+{
+  "name": "uusi-kansio",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "yes"
+  ],
+  "homepage": "https://github.com/Juoksumatto/Fullstack-3#readme",
+  "bugs": {
+    "url": "https://github.com/Juoksumatto/Fullstack-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juoksumatto/Fullstack-3.git"
+  },
+  "license": "ISC",
+  "author": "Onni Hölttä",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  }
+}
