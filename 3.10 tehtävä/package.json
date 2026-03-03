@@ -1,0 +1,14 @@
+{
+  "name": "phonebook-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fullstack phonebook app",
+  "type": "commonjs",
+  "scripts": {
+    "build": "cd \"3.10 tehtävä nettiin\" && npm run build",
+    "start": "cd \"3.10 tehtävä nettiin\" && npm start"
+  },
+  "engines": {
+    "node": "22"
+  }
+}

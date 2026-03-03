@@ -1,0 +1,16 @@
+### 
+GET http://phonebook-p51o.onrender.com/api/persons
+
+### 
+DELETE http://phonebook-p51o.onrender.com/api/persons/947450
+
+### 
+POST http://phonebook-p51o.onrender.com/api/persons Content-type: application/json
+
+{
+"name": "yes",
+"number": "123456789"
+}
+
+### 
+GET http://phonebook-p51o.onrender.com/api/persons
